@@ -18,14 +18,7 @@ class ViewController: UIViewController {
        // Hann bhai kese ho
        // Zuhair
         
-        // Ammad Ahmed
-        
-        
-        
-        
-        //  PR Practice : Whats My favorite color ?
-        // Black
-        
+        // Ammad Ahmed 
     }
     
     
