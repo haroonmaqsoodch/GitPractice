@@ -18,7 +18,9 @@ class ViewController: UIViewController {
        // Hann bhai kese ho
        // Zuhair
         
-        // Ammad Ahmed 
+        // Ammad Ahmed
+        //Hello everyone how is everything going lets use this as a chat to practice for the github
+        //The weather is a bit chilly today in New York  How about Pakistan?
     }
     
     
