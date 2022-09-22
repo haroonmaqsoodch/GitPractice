@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B621B1C28DA4CAF0007AFA7 /* TermAndConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B621B1B28DA4CAF0007AFA7 /* TermAndConditionViewController.swift */; };
+		2B73D46B28DAA96A002CC9F4 /* TermAndConditionsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B73D46A28DAA96A002CC9F4 /* TermAndConditionsStoryboard.storyboard */; };
 		E084B3A928D6278A007C3DC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084B3A828D6278A007C3DC7 /* AppDelegate.swift */; };
 		E084B3AB28D6278A007C3DC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084B3AA28D6278A007C3DC7 /* SceneDelegate.swift */; };
 		E084B3AD28D6278A007C3DC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E084B3AC28D6278A007C3DC7 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B621B1B28DA4CAF0007AFA7 /* TermAndConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermAndConditionViewController.swift; sourceTree = "<group>"; };
+		2B73D46A28DAA96A002CC9F4 /* TermAndConditionsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TermAndConditionsStoryboard.storyboard; sourceTree = "<group>"; };
 		E084B3A528D6278A007C3DC7 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E084B3A828D6278A007C3DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E084B3AA28D6278A007C3DC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B73D46828DAA8E9002CC9F4 /* TermAndConditions */ = {
+			isa = PBXGroup;
+			children = (
+				2B73D46C28DAA978002CC9F4 /* View */,
+				2B73D46928DAA930002CC9F4 /* Controllers */,
+			);
+			path = TermAndConditions;
+			sourceTree = "<group>";
+		};
+		2B73D46928DAA930002CC9F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B621B1B28DA4CAF0007AFA7 /* TermAndConditionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2B73D46C28DAA978002CC9F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B73D46A28DAA96A002CC9F4 /* TermAndConditionsStoryboard.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E084B39C28D6278A007C3DC7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +85,7 @@
 		E084B3A728D6278A007C3DC7 /* GitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				2B73D46828DAA8E9002CC9F4 /* TermAndConditions */,
 				E084B3A828D6278A007C3DC7 /* AppDelegate.swift */,
 				E084B3AA28D6278A007C3DC7 /* SceneDelegate.swift */,
 				E084B3AC28D6278A007C3DC7 /* ViewController.swift */,
@@ -128,6 +158,7 @@
 				E084B3B528D6278C007C3DC7 /* LaunchScreen.storyboard in Resources */,
 				E084B3B228D6278C007C3DC7 /* Assets.xcassets in Resources */,
 				E084B3B028D6278A007C3DC7 /* Main.storyboard in Resources */,
+				2B73D46B28DAA96A002CC9F4 /* TermAndConditionsStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B621B1C28DA4CAF0007AFA7 /* TermAndConditionViewController.swift in Sources */,
 				E084B3AD28D6278A007C3DC7 /* ViewController.swift in Sources */,
 				E084B3A928D6278A007C3DC7 /* AppDelegate.swift in Sources */,
 				E084B3AB28D6278A007C3DC7 /* SceneDelegate.swift in Sources */,
