@@ -25,5 +25,6 @@ class TermAndConditionViewController: UIViewController {
     @IBAction func ReadMoreButton(_ sender: Any) {
      
         
+        
     }
 }
